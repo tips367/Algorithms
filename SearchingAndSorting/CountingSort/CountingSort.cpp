@@ -59,7 +59,7 @@ int main()
 {
     //int arr[] = { 10, 7, 8, 9, 1, 5, 8 };
     //int arr[] = { 4,3,1,5,2 };
-    int arr[] = { 4, 2, 2, 8, 3, 3, 10000000 };
+    int arr[] = { 4, 2, 2, 8, 3, 3, 10 };
 
     int n = sizeof(arr) / sizeof(arr[0]);
     printf("Given array is \n");
