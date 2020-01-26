@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CountingSort", "CountingSor
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RadixSort", "RadixSort\RadixSort.vcxproj", "{9784E994-FCF5-4A29-A289-149367896248}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BucketSort", "BucketSort\BucketSort.vcxproj", "{2345FB93-3808-469D-A8A4-F39CE8CA60A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{9784E994-FCF5-4A29-A289-149367896248}.Release|x64.Build.0 = Release|x64
 		{9784E994-FCF5-4A29-A289-149367896248}.Release|x86.ActiveCfg = Release|Win32
 		{9784E994-FCF5-4A29-A289-149367896248}.Release|x86.Build.0 = Release|Win32
+		{2345FB93-3808-469D-A8A4-F39CE8CA60A2}.Debug|x64.ActiveCfg = Debug|x64
+		{2345FB93-3808-469D-A8A4-F39CE8CA60A2}.Debug|x64.Build.0 = Debug|x64
+		{2345FB93-3808-469D-A8A4-F39CE8CA60A2}.Debug|x86.ActiveCfg = Debug|Win32
+		{2345FB93-3808-469D-A8A4-F39CE8CA60A2}.Debug|x86.Build.0 = Debug|Win32
+		{2345FB93-3808-469D-A8A4-F39CE8CA60A2}.Release|x64.ActiveCfg = Release|x64
+		{2345FB93-3808-469D-A8A4-F39CE8CA60A2}.Release|x64.Build.0 = Release|x64
+		{2345FB93-3808-469D-A8A4-F39CE8CA60A2}.Release|x86.ActiveCfg = Release|Win32
+		{2345FB93-3808-469D-A8A4-F39CE8CA60A2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
