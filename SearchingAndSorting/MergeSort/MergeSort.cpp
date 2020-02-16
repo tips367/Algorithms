@@ -14,8 +14,8 @@ void merge(int arr[], int l, int m, int r)
 
     /* create temp arrays */
     //int L[n1], R[n2];
-    int* L = (int*)malloc(n1 * sizeof(int));
-    int* R = (int*)malloc(n2 * sizeof(int));
+    int* L = new int[n1];
+    int* R = new int[n2];
 
     /* Copy data to temp arrays L[] and R[] */
     for (i = 0; i < n1; i++)

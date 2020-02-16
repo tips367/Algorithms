@@ -19,8 +19,8 @@ int getMax(int arr[], int n)
 void countingSort(int arr[], int n)
 {
     int max = getMax(arr, n);
-    int* count = (int*)malloc((max+1) * sizeof(int));
-    int* output = (int*)malloc(n * sizeof(int));
+    int* count = new int[max + 1];
+    int* output = new int[n];
     for (int i = 0; i <= max; i++)
     {
         count[i] = 0;

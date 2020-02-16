@@ -19,7 +19,7 @@ int getMax(int arr[], int n)
 void countingSort(int arr[], int n, int placeValue)
 {
     int count[10] = { 0 };
-    int* output = (int*)malloc(n * sizeof(int));
+    int* output = new int[n];
  
     for (int i = 0; i < n; i++)
     {
