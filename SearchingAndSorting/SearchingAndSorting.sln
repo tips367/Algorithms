@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BucketSort", "BucketSort\Bu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShellSort", "ShellSort\ShellSort.vcxproj", "{591AED07-0C28-4B0D-B528-98377D0733A6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CombSort", "CombSort\CombSort.vcxproj", "{8476ED20-FDE1-4FA3-8F52-E533EC52FC1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{591AED07-0C28-4B0D-B528-98377D0733A6}.Release|x64.Build.0 = Release|x64
 		{591AED07-0C28-4B0D-B528-98377D0733A6}.Release|x86.ActiveCfg = Release|Win32
 		{591AED07-0C28-4B0D-B528-98377D0733A6}.Release|x86.Build.0 = Release|Win32
+		{8476ED20-FDE1-4FA3-8F52-E533EC52FC1D}.Debug|x64.ActiveCfg = Debug|x64
+		{8476ED20-FDE1-4FA3-8F52-E533EC52FC1D}.Debug|x64.Build.0 = Debug|x64
+		{8476ED20-FDE1-4FA3-8F52-E533EC52FC1D}.Debug|x86.ActiveCfg = Debug|Win32
+		{8476ED20-FDE1-4FA3-8F52-E533EC52FC1D}.Debug|x86.Build.0 = Debug|Win32
+		{8476ED20-FDE1-4FA3-8F52-E533EC52FC1D}.Release|x64.ActiveCfg = Release|x64
+		{8476ED20-FDE1-4FA3-8F52-E533EC52FC1D}.Release|x64.Build.0 = Release|x64
+		{8476ED20-FDE1-4FA3-8F52-E533EC52FC1D}.Release|x86.ActiveCfg = Release|Win32
+		{8476ED20-FDE1-4FA3-8F52-E533EC52FC1D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
