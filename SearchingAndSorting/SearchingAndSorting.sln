@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CycleSort", "CycleSort\Cycl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindMinimumLengthUnsortedSubarraySortingWhichMakesCompleteArraySorted", "FindMinimumLengthUnsortedSubarraySortingWhichMakesCompleteArraySorted\FindMinimumLengthUnsortedSubarraySortingWhichMakesCompleteArraySorted.vcxproj", "{D620CECE-3277-439C-A287-3A9F4A72411E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sort a nearly sorted (or K sorted) array", "Sort a nearly sorted (or K sorted) array\Sort a nearly sorted (or K sorted) array.vcxproj", "{5F46B0E2-3E64-4012-BC01-B16B009ABC53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{D620CECE-3277-439C-A287-3A9F4A72411E}.Release|x64.Build.0 = Release|x64
 		{D620CECE-3277-439C-A287-3A9F4A72411E}.Release|x86.ActiveCfg = Release|Win32
 		{D620CECE-3277-439C-A287-3A9F4A72411E}.Release|x86.Build.0 = Release|Win32
+		{5F46B0E2-3E64-4012-BC01-B16B009ABC53}.Debug|x64.ActiveCfg = Debug|x64
+		{5F46B0E2-3E64-4012-BC01-B16B009ABC53}.Debug|x64.Build.0 = Debug|x64
+		{5F46B0E2-3E64-4012-BC01-B16B009ABC53}.Debug|x86.ActiveCfg = Debug|Win32
+		{5F46B0E2-3E64-4012-BC01-B16B009ABC53}.Debug|x86.Build.0 = Debug|Win32
+		{5F46B0E2-3E64-4012-BC01-B16B009ABC53}.Release|x64.ActiveCfg = Release|x64
+		{5F46B0E2-3E64-4012-BC01-B16B009ABC53}.Release|x64.Build.0 = Release|x64
+		{5F46B0E2-3E64-4012-BC01-B16B009ABC53}.Release|x86.ActiveCfg = Release|Win32
+		{5F46B0E2-3E64-4012-BC01-B16B009ABC53}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
