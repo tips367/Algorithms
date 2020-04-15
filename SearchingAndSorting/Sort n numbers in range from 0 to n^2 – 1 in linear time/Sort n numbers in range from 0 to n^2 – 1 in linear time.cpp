@@ -1,4 +1,4 @@
-﻿/* Given an array of numbers of size n. It is also given that the array elements are in range from 0 to n2 – 1. Sort the given array in linear time.
+﻿/* Given an array of numbers of size n. It is also given that the array elements are in range from 0 to n^2 – 1. Sort the given array in linear time.
 
 Examples:
 Since there are 5 elements, the elements can be from 0 to 24.
