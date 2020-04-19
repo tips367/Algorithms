@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Find the closest pair from 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Find common elements in three sorted arrays", "Find common elements in three sorted arrays\Find common elements in three sorted arrays.vcxproj", "{1262A1AC-CC4C-4B6C-B251-DC544271051D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count 1’s in a sorted binary array", "Count 1’s in a sorted binary array\Count 1’s in a sorted binary array.vcxproj", "{83122218-A594-47B0-92A1-BB5E2289F821}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -241,6 +243,14 @@ Global
 		{1262A1AC-CC4C-4B6C-B251-DC544271051D}.Release|x64.Build.0 = Release|x64
 		{1262A1AC-CC4C-4B6C-B251-DC544271051D}.Release|x86.ActiveCfg = Release|Win32
 		{1262A1AC-CC4C-4B6C-B251-DC544271051D}.Release|x86.Build.0 = Release|Win32
+		{83122218-A594-47B0-92A1-BB5E2289F821}.Debug|x64.ActiveCfg = Debug|x64
+		{83122218-A594-47B0-92A1-BB5E2289F821}.Debug|x64.Build.0 = Debug|x64
+		{83122218-A594-47B0-92A1-BB5E2289F821}.Debug|x86.ActiveCfg = Debug|Win32
+		{83122218-A594-47B0-92A1-BB5E2289F821}.Debug|x86.Build.0 = Debug|Win32
+		{83122218-A594-47B0-92A1-BB5E2289F821}.Release|x64.ActiveCfg = Release|x64
+		{83122218-A594-47B0-92A1-BB5E2289F821}.Release|x64.Build.0 = Release|x64
+		{83122218-A594-47B0-92A1-BB5E2289F821}.Release|x86.ActiveCfg = Release|Win32
+		{83122218-A594-47B0-92A1-BB5E2289F821}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
