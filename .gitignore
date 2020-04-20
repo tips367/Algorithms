@@ -1,3 +1,5 @@
 # output directory
 Debug/
+# .vs directory
+.vs/
 
