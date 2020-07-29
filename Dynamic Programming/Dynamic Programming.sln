@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Longest Increasing Subsequence", "Longest Increasing Subsequence\Longest Increasing Subsequence.vcxproj", "{B0F37F85-13D6-4ECE-8887-D3B650EBC719}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Longest Common Subsequence", "Longest Common Subsequence\Longest Common Subsequence.vcxproj", "{6CB88152-80C8-4B0C-9B8B-29588EB667EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{B0F37F85-13D6-4ECE-8887-D3B650EBC719}.Release|x64.Build.0 = Release|x64
 		{B0F37F85-13D6-4ECE-8887-D3B650EBC719}.Release|x86.ActiveCfg = Release|Win32
 		{B0F37F85-13D6-4ECE-8887-D3B650EBC719}.Release|x86.Build.0 = Release|Win32
+		{6CB88152-80C8-4B0C-9B8B-29588EB667EB}.Debug|x64.ActiveCfg = Debug|x64
+		{6CB88152-80C8-4B0C-9B8B-29588EB667EB}.Debug|x64.Build.0 = Debug|x64
+		{6CB88152-80C8-4B0C-9B8B-29588EB667EB}.Debug|x86.ActiveCfg = Debug|Win32
+		{6CB88152-80C8-4B0C-9B8B-29588EB667EB}.Debug|x86.Build.0 = Debug|Win32
+		{6CB88152-80C8-4B0C-9B8B-29588EB667EB}.Release|x64.ActiveCfg = Release|x64
+		{6CB88152-80C8-4B0C-9B8B-29588EB667EB}.Release|x64.Build.0 = Release|x64
+		{6CB88152-80C8-4B0C-9B8B-29588EB667EB}.Release|x86.ActiveCfg = Release|Win32
+		{6CB88152-80C8-4B0C-9B8B-29588EB667EB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
