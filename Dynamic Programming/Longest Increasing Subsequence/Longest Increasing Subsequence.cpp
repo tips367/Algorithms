@@ -52,7 +52,7 @@ int longestIncSubsequence(int arr[], int n)
     return max;
 } */
 
-// Method 2. Dyanmic programming....Time complexity : O(n^2)  Space : 0(n) 
+// Method 2. Dynamic programming....Time complexity : O(n^2)  Space : 0(n) 
 
 int longestIncSubsequence(int arr[], int n)
 {

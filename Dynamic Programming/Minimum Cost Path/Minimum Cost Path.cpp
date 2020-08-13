@@ -30,7 +30,7 @@ int minCost(std::vector<std::vector<int>> const& cost, int m, int n)
         return cost[m][n] + std::min(std::min(minCost(cost, m - 1, n - 1), minCost(cost, m - 1, n)), minCost(cost,m, n - 1));
 } */
 
-// Method 2. Dyanmic programming....Time complexity : O(mn)  Space : 0(mn)
+// Method 2. Dynamic programming....Time complexity : O(mn)  Space : 0(mn)
 /*
 int minCost(std::vector<std::vector<int>> const& cost, int m, int n)
 {

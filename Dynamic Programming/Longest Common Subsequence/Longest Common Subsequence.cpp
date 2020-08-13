@@ -26,7 +26,7 @@ int lcs(char X[], char Y[], int m, int n)
 
 }*/
 
-// Method 2. Dyanmic programming....Time complexity : O(mn)  Space : 0(mn) 
+// Method 2. Dynamic programming....Time complexity : O(mn)  Space : 0(mn) 
 
 void printLcs(std::vector<std::vector<int>> const& L, char X[], char Y[], int m, int n)
 {

@@ -49,7 +49,7 @@ int editDistance(std::string const& str1, std::string const& str2, int m, int n)
     );
 } */
 
-// Method 2: Dyanmic programming....Time complexity : O(mn)  Space : 0(mn)
+// Method 2: Dynamic programming....Time complexity : O(mn)  Space : 0(mn)
 /*
 int editDistance(std::string const& str1, std::string const& str2, int m, int n)
 {
