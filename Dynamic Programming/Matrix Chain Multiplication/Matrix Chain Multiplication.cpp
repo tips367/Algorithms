@@ -31,7 +31,7 @@ int matrixChainMultiplication(int dims[], int i, int j)
 	// sequence of matrices can be split
 
 	//	(M[i]) x (M[i+1]..................M[j])
-	//	(M[i]M[i+1]) x (M[i+2.............M[j])
+	//	(M[i]M[i+1]) x (M[i+2].............M[j])
 	//	...
 	//	...
 	//	(M[i]M[i+1]............M[j-1]) x (M[j])
