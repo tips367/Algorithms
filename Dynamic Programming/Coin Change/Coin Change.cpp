@@ -8,7 +8,6 @@ For N = 10 and S = {2, 5, 3, 6}, there are five solutions: {2,2,2,2,2}, {2,2,3,3
 */
 
 #include <iostream>
-//#include <algorithm>
 #include <vector>
 
 // Method 1: Recursion....Time complexity : Exponential
