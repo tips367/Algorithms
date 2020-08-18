@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0-1 Knapsack Problem", "0-1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Egg Dropping puzzle", "Egg Dropping puzzle\Egg Dropping puzzle.vcxproj", "{A87341B1-CCE7-4F91-862A-AB279415AAC1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Longest Palindromic Subsequence", "Longest Palindromic Subsequence\Longest Palindromic Subsequence.vcxproj", "{661DF750-FA98-4B52-B534-2117D2743A88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{A87341B1-CCE7-4F91-862A-AB279415AAC1}.Release|x64.Build.0 = Release|x64
 		{A87341B1-CCE7-4F91-862A-AB279415AAC1}.Release|x86.ActiveCfg = Release|Win32
 		{A87341B1-CCE7-4F91-862A-AB279415AAC1}.Release|x86.Build.0 = Release|Win32
+		{661DF750-FA98-4B52-B534-2117D2743A88}.Debug|x64.ActiveCfg = Debug|x64
+		{661DF750-FA98-4B52-B534-2117D2743A88}.Debug|x64.Build.0 = Debug|x64
+		{661DF750-FA98-4B52-B534-2117D2743A88}.Debug|x86.ActiveCfg = Debug|Win32
+		{661DF750-FA98-4B52-B534-2117D2743A88}.Debug|x86.Build.0 = Debug|Win32
+		{661DF750-FA98-4B52-B534-2117D2743A88}.Release|x64.ActiveCfg = Release|x64
+		{661DF750-FA98-4B52-B534-2117D2743A88}.Release|x64.Build.0 = Release|x64
+		{661DF750-FA98-4B52-B534-2117D2743A88}.Release|x86.ActiveCfg = Release|Win32
+		{661DF750-FA98-4B52-B534-2117D2743A88}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
