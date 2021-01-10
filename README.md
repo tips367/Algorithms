@@ -17,6 +17,7 @@ All the algorithms are structured properly and placed topicwise in folders.
 <li>The repository provides implementations of various algorithms in C++.</li>
 <li>Well documented source code</li>
 <li>Source codes are compiled and tested</li>
+<li>Multiple approaches to solve each problem, from brute force to most optimized solutions.
 </ul>
 
 <h2>How to use this repository</h2>
