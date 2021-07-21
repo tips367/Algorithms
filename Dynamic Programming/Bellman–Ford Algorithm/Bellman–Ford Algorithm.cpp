@@ -47,17 +47,19 @@ void bellmanFord(struct Graph* graph, int source)
 {
     int V = graph->V;
     int E = graph->E;
-    int* distance = new int[V];
+    int* distance = new int[V];     // Keeps shortest path values to each vertex from source
 
     // Step 1: Initialize distances from src to all other vertices as INFINITE
     for (int i = 0; i < V; i++)
         distance[i] = INT_MAX;
     distance[source] = 0;
 
+    bool updated;
     // Step 2: Relax all edges |V| - 1 times. A simple shortest
     // path from src to any other vertex can have at-most |V| - 1 edges
     for (int i = 0; i < V - 1; i++)
     {
+        updated = false;
         for (int j = 0; j < E; j++)
         {
             int u = graph->edge[j].src;
@@ -66,8 +68,11 @@ void bellmanFord(struct Graph* graph, int source)
             if (distance[u] != INT_MAX && distance[u] + weight < distance[v])
             {
                 distance[v] = distance[u] + weight;
+                updated = true;
             }
         }
+        if (updated == false)
+            break;
     }
 
     // Step 3: check for negative-weight cycles.  The above step guarantees shortest distances if graph doesn't contain
@@ -85,7 +90,8 @@ void bellmanFord(struct Graph* graph, int source)
     }
 
     printArr(distance, V);
-}
+
+ }
 
 int main()
 {
