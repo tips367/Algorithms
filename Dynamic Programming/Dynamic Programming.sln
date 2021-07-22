@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Longest Palindromic Substri
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bellman–Ford Algorithm", "Bellman–Ford Algorithm\Bellman–Ford Algorithm.vcxproj", "{3328BC02-4BF0-4A16-9F7E-53F198DD9551}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Optimal Binary Search Tree", "Optimal Binary Search Tree\Optimal Binary Search Tree.vcxproj", "{D994E19B-EB77-4B98-B3CD-DFCC3D2A9BF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -271,6 +273,14 @@ Global
 		{3328BC02-4BF0-4A16-9F7E-53F198DD9551}.Release|x64.Build.0 = Release|x64
 		{3328BC02-4BF0-4A16-9F7E-53F198DD9551}.Release|x86.ActiveCfg = Release|Win32
 		{3328BC02-4BF0-4A16-9F7E-53F198DD9551}.Release|x86.Build.0 = Release|Win32
+		{D994E19B-EB77-4B98-B3CD-DFCC3D2A9BF1}.Debug|x64.ActiveCfg = Debug|x64
+		{D994E19B-EB77-4B98-B3CD-DFCC3D2A9BF1}.Debug|x64.Build.0 = Debug|x64
+		{D994E19B-EB77-4B98-B3CD-DFCC3D2A9BF1}.Debug|x86.ActiveCfg = Debug|Win32
+		{D994E19B-EB77-4B98-B3CD-DFCC3D2A9BF1}.Debug|x86.Build.0 = Debug|Win32
+		{D994E19B-EB77-4B98-B3CD-DFCC3D2A9BF1}.Release|x64.ActiveCfg = Release|x64
+		{D994E19B-EB77-4B98-B3CD-DFCC3D2A9BF1}.Release|x64.Build.0 = Release|x64
+		{D994E19B-EB77-4B98-B3CD-DFCC3D2A9BF1}.Release|x86.ActiveCfg = Release|Win32
+		{D994E19B-EB77-4B98-B3CD-DFCC3D2A9BF1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
