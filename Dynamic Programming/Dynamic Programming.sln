@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bellman–Ford Algorithm", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Optimal Binary Search Tree", "Optimal Binary Search Tree\Optimal Binary Search Tree.vcxproj", "{D994E19B-EB77-4B98-B3CD-DFCC3D2A9BF1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Largest Independent Set Problem", "Largest Independent Set Problem\Largest Independent Set Problem.vcxproj", "{8598E8AC-B605-45C1-9749-D3C4927AFD09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -281,6 +283,14 @@ Global
 		{D994E19B-EB77-4B98-B3CD-DFCC3D2A9BF1}.Release|x64.Build.0 = Release|x64
 		{D994E19B-EB77-4B98-B3CD-DFCC3D2A9BF1}.Release|x86.ActiveCfg = Release|Win32
 		{D994E19B-EB77-4B98-B3CD-DFCC3D2A9BF1}.Release|x86.Build.0 = Release|Win32
+		{8598E8AC-B605-45C1-9749-D3C4927AFD09}.Debug|x64.ActiveCfg = Debug|x64
+		{8598E8AC-B605-45C1-9749-D3C4927AFD09}.Debug|x64.Build.0 = Debug|x64
+		{8598E8AC-B605-45C1-9749-D3C4927AFD09}.Debug|x86.ActiveCfg = Debug|Win32
+		{8598E8AC-B605-45C1-9749-D3C4927AFD09}.Debug|x86.Build.0 = Debug|Win32
+		{8598E8AC-B605-45C1-9749-D3C4927AFD09}.Release|x64.ActiveCfg = Release|x64
+		{8598E8AC-B605-45C1-9749-D3C4927AFD09}.Release|x64.Build.0 = Release|x64
+		{8598E8AC-B605-45C1-9749-D3C4927AFD09}.Release|x86.ActiveCfg = Release|Win32
+		{8598E8AC-B605-45C1-9749-D3C4927AFD09}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
