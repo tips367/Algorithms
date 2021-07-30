@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count ways to reach the n't
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum Cost Polygon Triangulation", "Minimum Cost Polygon Triangulation\Minimum Cost Polygon Triangulation.vcxproj", "{25CC29E4-B5C4-455A-9D3E-23B9A6F7D911}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mobile Numeric Keypad Problem", "Mobile Numeric Keypad Problem\Mobile Numeric Keypad Problem.vcxproj", "{200A0EE6-B911-437C-AC10-8CC68C0350B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -341,6 +343,14 @@ Global
 		{25CC29E4-B5C4-455A-9D3E-23B9A6F7D911}.Release|x64.Build.0 = Release|x64
 		{25CC29E4-B5C4-455A-9D3E-23B9A6F7D911}.Release|x86.ActiveCfg = Release|Win32
 		{25CC29E4-B5C4-455A-9D3E-23B9A6F7D911}.Release|x86.Build.0 = Release|Win32
+		{200A0EE6-B911-437C-AC10-8CC68C0350B2}.Debug|x64.ActiveCfg = Debug|x64
+		{200A0EE6-B911-437C-AC10-8CC68C0350B2}.Debug|x64.Build.0 = Debug|x64
+		{200A0EE6-B911-437C-AC10-8CC68C0350B2}.Debug|x86.ActiveCfg = Debug|Win32
+		{200A0EE6-B911-437C-AC10-8CC68C0350B2}.Debug|x86.Build.0 = Debug|Win32
+		{200A0EE6-B911-437C-AC10-8CC68C0350B2}.Release|x64.ActiveCfg = Release|x64
+		{200A0EE6-B911-437C-AC10-8CC68C0350B2}.Release|x64.Build.0 = Release|x64
+		{200A0EE6-B911-437C-AC10-8CC68C0350B2}.Release|x86.ActiveCfg = Release|Win32
+		{200A0EE6-B911-437C-AC10-8CC68C0350B2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
