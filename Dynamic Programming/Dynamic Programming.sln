@@ -73,6 +73,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mobile Numeric Keypad Probl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count of n digit numbers whose sum of digits equals to given sum", "Count of n digit numbers whose sum of digits equals to given sum\Count of n digit numbers whose sum of digits equals to given sum.vcxproj", "{995A25E0-BB1B-4906-BD62-1A91F491C549}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum Initial Points to Reach Destination", "Minimum Initial Points to Reach Destination\Minimum Initial Points to Reach Destination.vcxproj", "{7E4638D6-E4F1-4C4F-A4A1-472C9BE299FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -361,6 +363,14 @@ Global
 		{995A25E0-BB1B-4906-BD62-1A91F491C549}.Release|x64.Build.0 = Release|x64
 		{995A25E0-BB1B-4906-BD62-1A91F491C549}.Release|x86.ActiveCfg = Release|Win32
 		{995A25E0-BB1B-4906-BD62-1A91F491C549}.Release|x86.Build.0 = Release|Win32
+		{7E4638D6-E4F1-4C4F-A4A1-472C9BE299FC}.Debug|x64.ActiveCfg = Debug|x64
+		{7E4638D6-E4F1-4C4F-A4A1-472C9BE299FC}.Debug|x64.Build.0 = Debug|x64
+		{7E4638D6-E4F1-4C4F-A4A1-472C9BE299FC}.Debug|x86.ActiveCfg = Debug|Win32
+		{7E4638D6-E4F1-4C4F-A4A1-472C9BE299FC}.Debug|x86.Build.0 = Debug|Win32
+		{7E4638D6-E4F1-4C4F-A4A1-472C9BE299FC}.Release|x64.ActiveCfg = Release|x64
+		{7E4638D6-E4F1-4C4F-A4A1-472C9BE299FC}.Release|x64.Build.0 = Release|x64
+		{7E4638D6-E4F1-4C4F-A4A1-472C9BE299FC}.Release|x86.ActiveCfg = Release|Win32
+		{7E4638D6-E4F1-4C4F-A4A1-472C9BE299FC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
