@@ -75,6 +75,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count of n digit numbers wh
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum Initial Points to Reach Destination", "Minimum Initial Points to Reach Destination\Minimum Initial Points to Reach Destination.vcxproj", "{7E4638D6-E4F1-4C4F-A4A1-472C9BE299FC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Total number of non-decreasing numbers with n digits", "Total number of non-decreasing numbers with n digits\Total number of non-decreasing numbers with n digits.vcxproj", "{76CE2F14-8A98-4D9F-B44A-4E0DB9410A26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -371,6 +373,14 @@ Global
 		{7E4638D6-E4F1-4C4F-A4A1-472C9BE299FC}.Release|x64.Build.0 = Release|x64
 		{7E4638D6-E4F1-4C4F-A4A1-472C9BE299FC}.Release|x86.ActiveCfg = Release|Win32
 		{7E4638D6-E4F1-4C4F-A4A1-472C9BE299FC}.Release|x86.Build.0 = Release|Win32
+		{76CE2F14-8A98-4D9F-B44A-4E0DB9410A26}.Debug|x64.ActiveCfg = Debug|x64
+		{76CE2F14-8A98-4D9F-B44A-4E0DB9410A26}.Debug|x64.Build.0 = Debug|x64
+		{76CE2F14-8A98-4D9F-B44A-4E0DB9410A26}.Debug|x86.ActiveCfg = Debug|Win32
+		{76CE2F14-8A98-4D9F-B44A-4E0DB9410A26}.Debug|x86.Build.0 = Debug|Win32
+		{76CE2F14-8A98-4D9F-B44A-4E0DB9410A26}.Release|x64.ActiveCfg = Release|x64
+		{76CE2F14-8A98-4D9F-B44A-4E0DB9410A26}.Release|x64.Build.0 = Release|x64
+		{76CE2F14-8A98-4D9F-B44A-4E0DB9410A26}.Release|x86.ActiveCfg = Release|Win32
+		{76CE2F14-8A98-4D9F-B44A-4E0DB9410A26}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
