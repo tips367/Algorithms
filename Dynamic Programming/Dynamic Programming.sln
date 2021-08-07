@@ -83,6 +83,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tiling Problem", "Tiling Pr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum number of squares whose sum equals to given number n", "Minimum number of squares whose sum equals to given number n\Minimum number of squares whose sum equals to given number n.vcxproj", "{77EE5404-87F5-4869-9CB0-400C38FCAC1C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum number of coins that make a given value", "Minimum number of coins that make a given value\Minimum number of coins that make a given value.vcxproj", "{1AC9D690-8F96-467A-8B80-EEE66281F080}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -411,6 +413,14 @@ Global
 		{77EE5404-87F5-4869-9CB0-400C38FCAC1C}.Release|x64.Build.0 = Release|x64
 		{77EE5404-87F5-4869-9CB0-400C38FCAC1C}.Release|x86.ActiveCfg = Release|Win32
 		{77EE5404-87F5-4869-9CB0-400C38FCAC1C}.Release|x86.Build.0 = Release|Win32
+		{1AC9D690-8F96-467A-8B80-EEE66281F080}.Debug|x64.ActiveCfg = Debug|x64
+		{1AC9D690-8F96-467A-8B80-EEE66281F080}.Debug|x64.Build.0 = Debug|x64
+		{1AC9D690-8F96-467A-8B80-EEE66281F080}.Debug|x86.ActiveCfg = Debug|Win32
+		{1AC9D690-8F96-467A-8B80-EEE66281F080}.Debug|x86.Build.0 = Debug|Win32
+		{1AC9D690-8F96-467A-8B80-EEE66281F080}.Release|x64.ActiveCfg = Release|x64
+		{1AC9D690-8F96-467A-8B80-EEE66281F080}.Release|x64.Build.0 = Release|x64
+		{1AC9D690-8F96-467A-8B80-EEE66281F080}.Release|x86.ActiveCfg = Release|Win32
+		{1AC9D690-8F96-467A-8B80-EEE66281F080}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
