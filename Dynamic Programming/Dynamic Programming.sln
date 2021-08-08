@@ -87,6 +87,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum number of coins tha
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Collect maximum points in a grid using two traversals", "Collect maximum points in a grid using two traversals\Collect maximum points in a grid using two traversals.vcxproj", "{D15264EE-7431-469D-AD27-3096DCA658A0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shortest Common Supersequence", "Shortest Common Supersequence\Shortest Common Supersequence.vcxproj", "{A739132E-726C-4ED0-8734-F9A16261EA61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -431,6 +433,14 @@ Global
 		{D15264EE-7431-469D-AD27-3096DCA658A0}.Release|x64.Build.0 = Release|x64
 		{D15264EE-7431-469D-AD27-3096DCA658A0}.Release|x86.ActiveCfg = Release|Win32
 		{D15264EE-7431-469D-AD27-3096DCA658A0}.Release|x86.Build.0 = Release|Win32
+		{A739132E-726C-4ED0-8734-F9A16261EA61}.Debug|x64.ActiveCfg = Debug|x64
+		{A739132E-726C-4ED0-8734-F9A16261EA61}.Debug|x64.Build.0 = Debug|x64
+		{A739132E-726C-4ED0-8734-F9A16261EA61}.Debug|x86.ActiveCfg = Debug|Win32
+		{A739132E-726C-4ED0-8734-F9A16261EA61}.Debug|x86.Build.0 = Debug|Win32
+		{A739132E-726C-4ED0-8734-F9A16261EA61}.Release|x64.ActiveCfg = Release|x64
+		{A739132E-726C-4ED0-8734-F9A16261EA61}.Release|x64.Build.0 = Release|x64
+		{A739132E-726C-4ED0-8734-F9A16261EA61}.Release|x86.ActiveCfg = Release|Win32
+		{A739132E-726C-4ED0-8734-F9A16261EA61}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
