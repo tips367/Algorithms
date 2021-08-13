@@ -50,17 +50,16 @@ int minCost(int cost[N][N])
     // costDP stores minimum cost to reach station i from station 0.
     int* costDP = new int[N];
 
+    // Initialize `costDP[]` with the direct ticket price from the source city
     for (int i = 0; i < N; i++)
-        costDP[i] = INF;
-
-    costDP[0] = 0;
+        costDP[i] = cost[0][i];
 
     // Go through every station and check if using it as an intermediate station gives better path
-    for (int i = 0; i < N; i++)
+    for (int i = 2; i < N; i++)
     {
-        for (int j = i + 1; j < N; j++)
+        for (int j = 0; j < i; j++)
         {
-            costDP[j] = std::min(costDP[j], cost[i][j] + costDP[i]);
+            costDP[i] = std::min(costDP[i], cost[j][i] + costDP[j]);
         }
     }
     return costDP[N - 1];
