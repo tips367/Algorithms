@@ -99,6 +99,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum cost to reach desti
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Number of ways to reach a given score in a game", "Number of ways to reach a given score in a game\Number of ways to reach a given score in a game.vcxproj", "{5F7A3741-0E56-4CA6-B8DA-C87C3D9F30E1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Weighted Job Scheduling", "Weighted Job Scheduling\Weighted Job Scheduling.vcxproj", "{CBAB80C3-9BE3-4AD5-A25A-D9F820C46BEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -491,6 +493,14 @@ Global
 		{5F7A3741-0E56-4CA6-B8DA-C87C3D9F30E1}.Release|x64.Build.0 = Release|x64
 		{5F7A3741-0E56-4CA6-B8DA-C87C3D9F30E1}.Release|x86.ActiveCfg = Release|Win32
 		{5F7A3741-0E56-4CA6-B8DA-C87C3D9F30E1}.Release|x86.Build.0 = Release|Win32
+		{CBAB80C3-9BE3-4AD5-A25A-D9F820C46BEA}.Debug|x64.ActiveCfg = Debug|x64
+		{CBAB80C3-9BE3-4AD5-A25A-D9F820C46BEA}.Debug|x64.Build.0 = Debug|x64
+		{CBAB80C3-9BE3-4AD5-A25A-D9F820C46BEA}.Debug|x86.ActiveCfg = Debug|Win32
+		{CBAB80C3-9BE3-4AD5-A25A-D9F820C46BEA}.Debug|x86.Build.0 = Debug|Win32
+		{CBAB80C3-9BE3-4AD5-A25A-D9F820C46BEA}.Release|x64.ActiveCfg = Release|x64
+		{CBAB80C3-9BE3-4AD5-A25A-D9F820C46BEA}.Release|x64.Build.0 = Release|x64
+		{CBAB80C3-9BE3-4AD5-A25A-D9F820C46BEA}.Release|x86.ActiveCfg = Release|Win32
+		{CBAB80C3-9BE3-4AD5-A25A-D9F820C46BEA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
