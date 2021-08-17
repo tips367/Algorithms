@@ -50,12 +50,15 @@ int findMaxProfit(Job arr[], int n)
         {
             if (arr[j].finish <= arr[i].start)
             {
-                dp[i] = std::max(dp[i], arr[i].profit + dp[j]);
+                dp[i] += dp[j];
                 break;
             }
+
         }
+        // Store maximum of including and excluding
+        dp[i] = std::max(dp[i], dp[i - 1]);
     }
-    return *std::max_element(dp, dp + n);
+    return dp[n - 1];
 }
 
 int main()
