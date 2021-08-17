@@ -9,6 +9,7 @@ All the algorithms are structured properly and placed topicwise in folders.
 <li>Searching</li>
 <li>Sorting</li>
 <li>Dynamic Programming</li>
+<li>Backtracking</li>
 </ul>
 
 <h2>Features</h2>
