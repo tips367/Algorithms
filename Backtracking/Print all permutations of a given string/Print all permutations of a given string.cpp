@@ -1,20 +1,41 @@
-// Print all permutations of a given string.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+/* A permutation, also called an “arrangement number” or “order,” is a rearrangement of the elements of an 
+ordered list S into a one-to-one correspondence with S itself. A string of length n has n! permutation. 
+
+Below are the permutations of string ABC.
+ABC ACB BAC BCA CBA CAB
+*/
 
 #include <iostream>
+#include <string>
+
+void permutations(std::string str, int i, int n)
+{
+    // base condition
+    if (i == n - 1)
+    {
+        std::cout << str << std::endl;
+        return;
+    }
+
+    // process each character of the remaining string
+    for (int j = i; j < n; j++)
+    {
+        // swap character at index i with the current character
+        std::swap(str[i], str[j]);
+        // recur for substring str[i+1, n-1]
+        permutations(str, i + 1, n);
+        // backtrack (restore the string to its original state)
+        std::swap(str[i], str[j]);
+    }
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::string str = "ABC";
+
+    permutations(str, 0, str.length());
+
+    return 0;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
