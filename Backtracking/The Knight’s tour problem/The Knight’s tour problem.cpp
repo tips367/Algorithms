@@ -19,6 +19,7 @@ Output:
 */
 
 #include <iostream>
+#include <iomanip>
 
 // `N × N` chessboard
 #define N 8
@@ -33,18 +34,6 @@ bool isValid(int x, int y)
     if (x < 0 || y < 0 || x >= N || y >= N)
         return false;
     return true;
-}
-
-void printSolution(int visited[N][N])
-{
-    for (int i = 0; i < N; i++)
-    {
-        for (int j = 0; j < N; j++) 
-        {
-            std::cout << visited[i][j] << " ";
-        }
-        std::cout << std::endl;
-    }
 }
 
 bool knightTour(int visited[N][N], int i, int j, int position)
@@ -64,7 +53,7 @@ bool knightTour(int visited[N][N], int i, int j, int position)
         int newY = j + col[k];
 
         // if the new position is valid and not visited yet
-        if (isValid(newX, newY) && visited[newX][newY] == -1) 
+        if (isValid(newX, newY) && !visited[newX][newY]) 
         {
             if (knightTour(visited, newX, newY, position + 1))
                 return true;
@@ -72,27 +61,35 @@ bool knightTour(int visited[N][N], int i, int j, int position)
     }
 
     // backtrack from the current square and remove it from the current path
-    visited[i][j] = -1;
+    visited[i][j] = 0;
     return false;
+}
+
+void printSolution(int visited[N][N])
+{
+    for (int i = 0; i < N; i++)
+    {
+        for (int j = 0; j < N; j++)
+        {
+            std::cout << " " << std::setw(2) << visited[i][j] << " ";
+        }
+        std::cout << std::endl;
+    }
 }
 
 int main()
 {
-    // `visited[][]` serves two purposes:
-    // 1. It keeps track of squares involved in the knight's tour.
-    // 2. It stores the order in which the squares are visited.
     int visited[N][N];
 
-    // initialize `visited[][]` by 0 (unvisited)
-    for (int x = 0; x < N; x++)
-        for (int y = 0; y < N; y++)
-            visited[x][y] = -1;
+    memset(visited, 0, sizeof visited);
 
-    int pos = 0;
+    int position = 1;
 
-    // start knight tour from corner square `(0, 0)`
-    if (knightTour(visited, 0, 0, pos))
+    // start knight tour from corner square (0, 0)
+    if(knightTour(visited, 0, 0, position))
         printSolution(visited);
+    else
+        std::cout << "Solution does not exist";
 
     return 0;
 }
