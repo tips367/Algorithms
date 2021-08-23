@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "N Queen Problem", "N Queen 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "m Coloring Problem", "m Coloring Problem\m Coloring Problem.vcxproj", "{AE266868-DCCF-40D4-9A58-C0E192B5A765}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hamiltonian Cycle", "Hamiltonian Cycle\Hamiltonian Cycle.vcxproj", "{4818AC6C-1F34-4D62-9279-F27D699FEC8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{AE266868-DCCF-40D4-9A58-C0E192B5A765}.Release|x64.Build.0 = Release|x64
 		{AE266868-DCCF-40D4-9A58-C0E192B5A765}.Release|x86.ActiveCfg = Release|Win32
 		{AE266868-DCCF-40D4-9A58-C0E192B5A765}.Release|x86.Build.0 = Release|Win32
+		{4818AC6C-1F34-4D62-9279-F27D699FEC8E}.Debug|x64.ActiveCfg = Debug|x64
+		{4818AC6C-1F34-4D62-9279-F27D699FEC8E}.Debug|x64.Build.0 = Debug|x64
+		{4818AC6C-1F34-4D62-9279-F27D699FEC8E}.Debug|x86.ActiveCfg = Debug|Win32
+		{4818AC6C-1F34-4D62-9279-F27D699FEC8E}.Debug|x86.Build.0 = Debug|Win32
+		{4818AC6C-1F34-4D62-9279-F27D699FEC8E}.Release|x64.ActiveCfg = Release|x64
+		{4818AC6C-1F34-4D62-9279-F27D699FEC8E}.Release|x64.Build.0 = Release|x64
+		{4818AC6C-1F34-4D62-9279-F27D699FEC8E}.Release|x86.ActiveCfg = Release|Win32
+		{4818AC6C-1F34-4D62-9279-F27D699FEC8E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
