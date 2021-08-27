@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hamiltonian Cycle", "Hamilt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sudoku Solver", "Sudoku Solver\Sudoku Solver.vcxproj", "{C60ED3E8-152D-455E-9958-CCBCFE58C674}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tug of War", "Tug of War\Tug of War.vcxproj", "{45081CB8-7FE1-4121-9D48-8FC82D5957CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{C60ED3E8-152D-455E-9958-CCBCFE58C674}.Release|x64.Build.0 = Release|x64
 		{C60ED3E8-152D-455E-9958-CCBCFE58C674}.Release|x86.ActiveCfg = Release|Win32
 		{C60ED3E8-152D-455E-9958-CCBCFE58C674}.Release|x86.Build.0 = Release|Win32
+		{45081CB8-7FE1-4121-9D48-8FC82D5957CB}.Debug|x64.ActiveCfg = Debug|x64
+		{45081CB8-7FE1-4121-9D48-8FC82D5957CB}.Debug|x64.Build.0 = Debug|x64
+		{45081CB8-7FE1-4121-9D48-8FC82D5957CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{45081CB8-7FE1-4121-9D48-8FC82D5957CB}.Debug|x86.Build.0 = Debug|Win32
+		{45081CB8-7FE1-4121-9D48-8FC82D5957CB}.Release|x64.ActiveCfg = Release|x64
+		{45081CB8-7FE1-4121-9D48-8FC82D5957CB}.Release|x64.Build.0 = Release|x64
+		{45081CB8-7FE1-4121-9D48-8FC82D5957CB}.Release|x86.ActiveCfg = Release|Win32
+		{45081CB8-7FE1-4121-9D48-8FC82D5957CB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
