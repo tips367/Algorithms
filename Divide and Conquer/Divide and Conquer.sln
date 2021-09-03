@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Median of two sorted arrays
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count Inversions in an array", "Count Inversions in an array\Count Inversions in an array.vcxproj", "{33AD140D-08DE-489F-95AC-94FB0D33B714}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Closest Pair of Points", "Closest Pair of Points\Closest Pair of Points.vcxproj", "{8BC79401-5BD0-4DF4-841C-8C8D27D1CE78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{33AD140D-08DE-489F-95AC-94FB0D33B714}.Release|x64.Build.0 = Release|x64
 		{33AD140D-08DE-489F-95AC-94FB0D33B714}.Release|x86.ActiveCfg = Release|Win32
 		{33AD140D-08DE-489F-95AC-94FB0D33B714}.Release|x86.Build.0 = Release|Win32
+		{8BC79401-5BD0-4DF4-841C-8C8D27D1CE78}.Debug|x64.ActiveCfg = Debug|x64
+		{8BC79401-5BD0-4DF4-841C-8C8D27D1CE78}.Debug|x64.Build.0 = Debug|x64
+		{8BC79401-5BD0-4DF4-841C-8C8D27D1CE78}.Debug|x86.ActiveCfg = Debug|Win32
+		{8BC79401-5BD0-4DF4-841C-8C8D27D1CE78}.Debug|x86.Build.0 = Debug|Win32
+		{8BC79401-5BD0-4DF4-841C-8C8D27D1CE78}.Release|x64.ActiveCfg = Release|x64
+		{8BC79401-5BD0-4DF4-841C-8C8D27D1CE78}.Release|x64.Build.0 = Release|x64
+		{8BC79401-5BD0-4DF4-841C-8C8D27D1CE78}.Release|x86.ActiveCfg = Release|Win32
+		{8BC79401-5BD0-4DF4-841C-8C8D27D1CE78}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
