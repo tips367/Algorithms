@@ -11,6 +11,7 @@ All the algorithms are structured properly and placed topicwise in folders.
 <li>Dynamic Programming</li>
 <li>Backtracking</li>
 <li>Divide and Conquer</li>
+<li>Graph Algorithms</li>
 </ul>
 
 <h2>Features</h2>
