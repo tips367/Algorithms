@@ -3,6 +3,9 @@
 #include <iostream>
 #include <vector>
 #include <utility>
+#include <queue>
+
+using namespace std;
 
 #define V 6		//No of vertices
 
@@ -43,11 +46,11 @@ void findMST(int graph[V][V])
 		// Relax adjacent vertices (not yet included in MST)
 		for (int j = 0; j < V; ++j)
 		{
-			/* 3 constraints to relax:-
-				  1.Edge is present from U to j.
-				  2.Vertex j is not included in MST
-				  3.Edge weight is smaller than current edge weight
-			*/
+			// 3 constraints to relax:-
+			//	  1.Edge is present from U to j.
+			//	  2.Vertex j is not included in MST
+			//	  3.Edge weight is smaller than current edge weight
+			
 			if (graph[U][j] != 0 && setMST[j] == false && graph[U][j] < value[j])
 			{
 				value[j] = graph[U][j];
@@ -80,44 +83,33 @@ int main()
 {
 	int N, m;
 	std::cin >> N >> m;
-	std::vector<std::pair<int, int> > adj[N];
+	vector<vector<pair<int, int>>> adj(N);
 
 	int a, b, wt;
 	for (int i = 0; i < m; i++) 
 	{
 		std::cin >> a >> b >> wt;
-		adj[a].push_back(std::make_pair(b, wt));
-		adj[b].push_back(std::make_pair(a, wt));
+		adj[a].push_back(make_pair(b, wt));
+		adj[b].push_back(make_pair(a, wt));
 	}
 
-	int parent[N];
+	vector<int> parent(N);
 
-	int key[N];
+	vector<int> key(N, INT_MAX);
 
-	bool mstSet[N];
+	vector<bool> mstSet(N, false);
 
-	for (int i = 0; i < N; i++)
-		key[i] = INT_MAX, mstSet[i] = false;
-
-	priority_queue< pair<int, int>, vector <pair<int, int>>, greater<pair<int, int>> > pq;
+	priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>> > pq;
 
 	key[0] = 0;
 	parent[0] = -1;
 	pq.push({ 0, 0 });
+
 	// Run the loop till all the nodes have been visited
 	// because in the brute code we checked for mstSet[node] == false while computing the minimum
 	// but here we simply take the minimal from the priority queue, so a lot of times a node might be taken twice
 	// hence its better to keep running till all the nodes have been taken. 
-	// try the following case: 
-	// Credits: Srejan Bera
-	// 6 7 
-	// 0 1 5 
-	// 0 2 10 
-	// 0 3 100 
-	// 1 3 50 
-	// 1 4 200
-	// 3 4 250
-	// 4 5 50 
+
 	while (!pq.empty())
 	{
 		int u = pq.top().second;
@@ -125,10 +117,13 @@ int main()
 
 		mstSet[u] = true;
 
-		for (auto it : adj[u]) {
+		for (auto it : adj[u]) 
+		{
 			int v = it.first;
 			int weight = it.second;
-			if (mstSet[v] == false && weight < key[v]) {
+
+			if (mstSet[v] == false && weight < key[v]) 
+			{
 				parent[v] = u;
 				key[v] = weight;
 				pq.push({ key[v], v });
@@ -138,6 +133,6 @@ int main()
 	}
 
 	for (int i = 1; i < N; i++)
-		cout << parent[i] << " - " << i << " \n";
+		std::cout << parent[i] << " - " << i << " \n";
 	return 0;
 } */
