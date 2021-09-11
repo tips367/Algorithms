@@ -2,7 +2,13 @@
 
 #include <iostream>
 #include <vector>
+#include <utility>
+#include <queue>
 
+using namespace std;
+
+// Method 1. Time complexity : O(V^2)
+/*
 #define V 9		// No of vertices
 
 int selectMinVertex(std::vector<int>& distance, std::vector<bool>& processed)
@@ -29,7 +35,7 @@ void dijkstra(int graph[V][V], int source)
 	// Distance of source vertex from itself is always 0
 	distance[source] = 0;
 	// Start node has no parent
-	parent[0] = -1;	
+	parent[source] = -1;	
 
 	// Include (V-1) edges to cover all V-vertices
 	for (int i = 0; i < V - 1; ++i)
@@ -42,11 +48,11 @@ void dijkstra(int graph[V][V], int source)
 		// Update distance value of adjacent vertices (not yet included in shortest path graph)
 		for (int v = 0; v < V; ++v)
 		{
-			/* 3 conditions to relax:-
-				  1.Edge is present from U to j.
-				  2.Vertex j is not included in shortest path graph
-				  3.Distance from src to v through U is smaller than current value of distance[v]
-			*/
+			// 3 conditions to relax:-
+			//	  1.Edge is present from U to j.
+			//	  2.Vertex j is not included in shortest path graph
+			//	  3.Distance from src to v through U is smaller than current value of distance[v]
+			
 			if (graph[U][v] != 0 && processed[v] == false && distance[U] != INT_MAX
 				&& (distance[U] + graph[U][v] < distance[v]))
 			{
@@ -74,5 +80,84 @@ int main()
 
 	dijkstra(graph, 0);
 	return 0;
+} */
+
+// Method 2. Optimized...Time complexity : O(ElogV)
+void addEdge(vector<vector<pair<int, int>>>& adj, int u, int v, int wt)
+{
+	adj[u].push_back(std::make_pair(v, wt));
+	adj[v].push_back(std::make_pair(u, wt));
 }
 
+void dijkstra(vector<vector<pair<int, int>>>& adj, int V, int src)
+{
+	priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>> > pq;
+
+	vector<int> distance(V, INT_MAX);
+
+	// Insert source itself in priority queue and initialize its distance as 0.
+	pq.push(make_pair(0, src));
+
+	distance[src] = 0;
+
+	while (!pq.empty())
+	{
+		// The first vertex in pair is the minimum distance vertex, extract it from priority queue.
+		// vertex label is stored in second of pair (it has to be done this way to keep the vertices
+		// sorted distance (distance must be first item in pair)
+		int u = pq.top().second;
+		int d = pq.top().first;
+		pq.pop();
+
+		// this check is very important we analyze each vertex only once
+		// the other occurrences of it on queue (added earlier) will have greater distance
+		if (d <= distance[u])
+		{
+			// Get all adjacent of u. 
+			for (auto x : adj[u])
+			{
+				// Get vertex label and weight of current adjacent of u.
+				int v = x.first;
+				int weight = x.second;
+
+				// If there is shorted path to v through u.
+				if (distance[v] > distance[u] + weight)
+				{
+					// Updating distance of v
+					distance[v] = distance[u] + weight;
+					pq.push(make_pair(distance[v], v));
+				}
+			}
+		}
+	}
+
+	// Print shortest distances stored in dist[]
+	printf("Vertex Distance from Source\n");
+	for (int i = 0; i < V; ++i)
+		cout << i << "\t\t" << distance[i] << endl;
+}
+
+int main()
+{
+	int V = 9;
+	vector<vector<pair<int, int>>> adj(V);
+
+	addEdge(adj, 0, 1, 4);
+	addEdge(adj, 0, 7, 8);
+	addEdge(adj, 1, 2, 8);
+	addEdge(adj, 1, 7, 11);
+	addEdge(adj, 2, 3, 7);
+	addEdge(adj, 2, 8, 2);
+	addEdge(adj, 2, 5, 4);
+	addEdge(adj, 3, 4, 9);
+	addEdge(adj, 3, 5, 14);
+	addEdge(adj, 4, 5, 10);
+	addEdge(adj, 5, 6, 2);
+	addEdge(adj, 6, 7, 1);
+	addEdge(adj, 6, 8, 6);
+	addEdge(adj, 7, 8, 7);
+
+	dijkstra(adj, V, 0);
+
+	return 0;
+}
