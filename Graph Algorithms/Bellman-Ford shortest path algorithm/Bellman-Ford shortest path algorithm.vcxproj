@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ec17d51e-b594-44ad-9180-4081fa83297a}</ProjectGuid>
-    <RootNamespace>BellmanFordAlgorithm</RootNamespace>
+    <ProjectGuid>{460436a9-6e14-47e0-bb94-54190b610624}</ProjectGuid>
+    <RootNamespace>BellmanFordshortestpathalgorithm</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -140,7 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Bellman–Ford Algorithm.cpp" />
+    <ClCompile Include="Bellman-Ford shortest path algorithm.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
