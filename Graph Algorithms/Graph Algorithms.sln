@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dijkstra’s shortest path 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bellman-Ford shortest path algorithm", "Bellman-Ford shortest path algorithm\Bellman-Ford shortest path algorithm.vcxproj", "{460436A9-6E14-47E0-BB94-54190B610624}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Floyd Warshall's all pairs shortest path algorithm", "Floyd Warshall's all pairs shortest path algorithm\Floyd Warshall's all pairs shortest path algorithm.vcxproj", "{FB21B20F-130D-4455-AFED-6D3DB43B7934}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{460436A9-6E14-47E0-BB94-54190B610624}.Release|x64.Build.0 = Release|x64
 		{460436A9-6E14-47E0-BB94-54190B610624}.Release|x86.ActiveCfg = Release|Win32
 		{460436A9-6E14-47E0-BB94-54190B610624}.Release|x86.Build.0 = Release|Win32
+		{FB21B20F-130D-4455-AFED-6D3DB43B7934}.Debug|x64.ActiveCfg = Debug|x64
+		{FB21B20F-130D-4455-AFED-6D3DB43B7934}.Debug|x64.Build.0 = Debug|x64
+		{FB21B20F-130D-4455-AFED-6D3DB43B7934}.Debug|x86.ActiveCfg = Debug|Win32
+		{FB21B20F-130D-4455-AFED-6D3DB43B7934}.Debug|x86.Build.0 = Debug|Win32
+		{FB21B20F-130D-4455-AFED-6D3DB43B7934}.Release|x64.ActiveCfg = Release|x64
+		{FB21B20F-130D-4455-AFED-6D3DB43B7934}.Release|x64.Build.0 = Release|x64
+		{FB21B20F-130D-4455-AFED-6D3DB43B7934}.Release|x86.ActiveCfg = Release|Win32
+		{FB21B20F-130D-4455-AFED-6D3DB43B7934}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
