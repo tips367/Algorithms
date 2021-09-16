@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Floyd Warshall's all pairs 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shortest Path in Directed Acyclic Graph", "Shortest Path in Directed Acyclic Graph\Shortest Path in Directed Acyclic Graph.vcxproj", "{69FA7CAB-029D-4006-9109-E8DA8B645532}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Find if there is a path between two vertices in a directed graph", "Find if there is a path between two vertices in a directed graph\Find if there is a path between two vertices in a directed graph.vcxproj", "{1DA0FD92-7E21-4C97-97C3-3CAC9BCFDFEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{69FA7CAB-029D-4006-9109-E8DA8B645532}.Release|x64.Build.0 = Release|x64
 		{69FA7CAB-029D-4006-9109-E8DA8B645532}.Release|x86.ActiveCfg = Release|Win32
 		{69FA7CAB-029D-4006-9109-E8DA8B645532}.Release|x86.Build.0 = Release|Win32
+		{1DA0FD92-7E21-4C97-97C3-3CAC9BCFDFEF}.Debug|x64.ActiveCfg = Debug|x64
+		{1DA0FD92-7E21-4C97-97C3-3CAC9BCFDFEF}.Debug|x64.Build.0 = Debug|x64
+		{1DA0FD92-7E21-4C97-97C3-3CAC9BCFDFEF}.Debug|x86.ActiveCfg = Debug|Win32
+		{1DA0FD92-7E21-4C97-97C3-3CAC9BCFDFEF}.Debug|x86.Build.0 = Debug|Win32
+		{1DA0FD92-7E21-4C97-97C3-3CAC9BCFDFEF}.Release|x64.ActiveCfg = Release|x64
+		{1DA0FD92-7E21-4C97-97C3-3CAC9BCFDFEF}.Release|x64.Build.0 = Release|x64
+		{1DA0FD92-7E21-4C97-97C3-3CAC9BCFDFEF}.Release|x86.ActiveCfg = Release|Win32
+		{1DA0FD92-7E21-4C97-97C3-3CAC9BCFDFEF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
