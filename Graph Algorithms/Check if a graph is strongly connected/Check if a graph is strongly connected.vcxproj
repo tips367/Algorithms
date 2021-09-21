@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{059f41e8-60df-4a15-811a-5c8a4adb3f7e}</ProjectGuid>
-    <RootNamespace>KosarajuAlgorithm</RootNamespace>
+    <ProjectGuid>{6f000c73-1d11-40e9-bbd7-e334d89bb8b7}</ProjectGuid>
+    <RootNamespace>Checkifagraphisstronglyconnected</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -140,7 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Kosaraju Algorithm.cpp" />
+    <ClCompile Include="Check if a graph is strongly connected.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

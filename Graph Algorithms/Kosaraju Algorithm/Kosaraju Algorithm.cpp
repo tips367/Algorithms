@@ -9,6 +9,8 @@
 using namespace std;
 #define V 8
 
+// Time complexity : O(V+E)
+
 unordered_map<int, vector<int>> adj, rev;
 
 void DFS1(int i, vector<bool>& visited, stack<int>& mystack)
@@ -83,4 +85,3 @@ int main()
 	return 0;
 }
 
-//TIME COMPLEXITY: O(V+E)
