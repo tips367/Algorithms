@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bridges (Cut Edges) in a gr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Eulerian path and circuit for undirected graph", "Eulerian path and circuit for undirected graph\Eulerian path and circuit for undirected graph.vcxproj", "{0D6D89BE-008C-4FC5-881F-8A9CBCF3439F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Find the number of islands", "Find the number of islands\Find the number of islands.vcxproj", "{8FB7A237-1A88-4BE7-B877-06AC25C49EBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -231,6 +233,14 @@ Global
 		{0D6D89BE-008C-4FC5-881F-8A9CBCF3439F}.Release|x64.Build.0 = Release|x64
 		{0D6D89BE-008C-4FC5-881F-8A9CBCF3439F}.Release|x86.ActiveCfg = Release|Win32
 		{0D6D89BE-008C-4FC5-881F-8A9CBCF3439F}.Release|x86.Build.0 = Release|Win32
+		{8FB7A237-1A88-4BE7-B877-06AC25C49EBC}.Debug|x64.ActiveCfg = Debug|x64
+		{8FB7A237-1A88-4BE7-B877-06AC25C49EBC}.Debug|x64.Build.0 = Debug|x64
+		{8FB7A237-1A88-4BE7-B877-06AC25C49EBC}.Debug|x86.ActiveCfg = Debug|Win32
+		{8FB7A237-1A88-4BE7-B877-06AC25C49EBC}.Debug|x86.Build.0 = Debug|Win32
+		{8FB7A237-1A88-4BE7-B877-06AC25C49EBC}.Release|x64.ActiveCfg = Release|x64
+		{8FB7A237-1A88-4BE7-B877-06AC25C49EBC}.Release|x64.Build.0 = Release|x64
+		{8FB7A237-1A88-4BE7-B877-06AC25C49EBC}.Release|x86.ActiveCfg = Release|Win32
+		{8FB7A237-1A88-4BE7-B877-06AC25C49EBC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
