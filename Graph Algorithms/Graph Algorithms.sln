@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Eulerian path and circuit f
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Find the number of islands", "Find the number of islands\Find the number of islands.vcxproj", "{8FB7A237-1A88-4BE7-B877-06AC25C49EBC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Transitive closure of a graph", "Transitive closure of a graph\Transitive closure of a graph.vcxproj", "{653BDA2F-4ED6-410A-A7B5-75C15D4E998A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -241,6 +243,14 @@ Global
 		{8FB7A237-1A88-4BE7-B877-06AC25C49EBC}.Release|x64.Build.0 = Release|x64
 		{8FB7A237-1A88-4BE7-B877-06AC25C49EBC}.Release|x86.ActiveCfg = Release|Win32
 		{8FB7A237-1A88-4BE7-B877-06AC25C49EBC}.Release|x86.Build.0 = Release|Win32
+		{653BDA2F-4ED6-410A-A7B5-75C15D4E998A}.Debug|x64.ActiveCfg = Debug|x64
+		{653BDA2F-4ED6-410A-A7B5-75C15D4E998A}.Debug|x64.Build.0 = Debug|x64
+		{653BDA2F-4ED6-410A-A7B5-75C15D4E998A}.Debug|x86.ActiveCfg = Debug|Win32
+		{653BDA2F-4ED6-410A-A7B5-75C15D4E998A}.Debug|x86.Build.0 = Debug|Win32
+		{653BDA2F-4ED6-410A-A7B5-75C15D4E998A}.Release|x64.ActiveCfg = Release|x64
+		{653BDA2F-4ED6-410A-A7B5-75C15D4E998A}.Release|x64.Build.0 = Release|x64
+		{653BDA2F-4ED6-410A-A7B5-75C15D4E998A}.Release|x86.ActiveCfg = Release|Win32
+		{653BDA2F-4ED6-410A-A7B5-75C15D4E998A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
