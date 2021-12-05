@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Check if a Number is Multiple of 3", "Check if a Number is Multiple of 3\Check if a Number is Multiple of 3.vcxproj", "{C42873A3-9242-44F4-ADC4-D3546546FA55}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Efficient way to multiply with 7", "Efficient way to multiply with 7\Efficient way to multiply with 7.vcxproj", "{18CECF16-F78C-4CDA-BD45-DCFDB177F5F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{C42873A3-9242-44F4-ADC4-D3546546FA55}.Release|x64.Build.0 = Release|x64
 		{C42873A3-9242-44F4-ADC4-D3546546FA55}.Release|x86.ActiveCfg = Release|Win32
 		{C42873A3-9242-44F4-ADC4-D3546546FA55}.Release|x86.Build.0 = Release|Win32
+		{18CECF16-F78C-4CDA-BD45-DCFDB177F5F5}.Debug|x64.ActiveCfg = Debug|x64
+		{18CECF16-F78C-4CDA-BD45-DCFDB177F5F5}.Debug|x64.Build.0 = Debug|x64
+		{18CECF16-F78C-4CDA-BD45-DCFDB177F5F5}.Debug|x86.ActiveCfg = Debug|Win32
+		{18CECF16-F78C-4CDA-BD45-DCFDB177F5F5}.Debug|x86.Build.0 = Debug|Win32
+		{18CECF16-F78C-4CDA-BD45-DCFDB177F5F5}.Release|x64.ActiveCfg = Release|x64
+		{18CECF16-F78C-4CDA-BD45-DCFDB177F5F5}.Release|x64.Build.0 = Release|x64
+		{18CECF16-F78C-4CDA-BD45-DCFDB177F5F5}.Release|x86.ActiveCfg = Release|Win32
+		{18CECF16-F78C-4CDA-BD45-DCFDB177F5F5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
