@@ -13,6 +13,7 @@ All the algorithms are structured properly and placed topicwise in folders.
 <li>Divide and Conquer</li>
 <li>Graph Algorithms</li>
 <li>Mathematical Algorithms</li>
+<li>Greedy Algorithms</li>
 </ul>
 
 <h2>Features</h2>
