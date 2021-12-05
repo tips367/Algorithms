@@ -12,6 +12,7 @@ All the algorithms are structured properly and placed topicwise in folders.
 <li>Backtracking</li>
 <li>Divide and Conquer</li>
 <li>Graph Algorithms</li>
+<li>Mathematical Algorithms</li>
 </ul>
 
 <h2>Features</h2>
