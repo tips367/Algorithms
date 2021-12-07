@@ -3,154 +3,104 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <numeric>
 
-class Edge 
+class DSU
 {
+    std::vector<int> parent, rank;
 public:
-    int src, dest, weight;
-};
-
-class Graph 
-{
-public:
-    int V, E;
-    std::vector<Edge> edge;
-};
-
-class subset 
-{
-public:
-    int parent;
-    int rank;
-};
-
-bool comparator(Edge a, Edge b)
-{
-    return a.weight < b.weight;
-}
-
-Graph* createGraph(int V, int E)
-{
-    Graph* graph = new Graph;
-    graph->V = V;
-    graph->E = E;
-
-    graph->edge.resize(E);
-
-    return graph;
-}
-
-int find(subset subsets[], int i)
-{
-    // find root and make root as parent of i (path compression)
-    if (subsets[i].parent == -1)
-        return i;
-
-    return subsets[i].parent = find(subsets, subsets[i].parent);
-}
-
-void Union(subset subsets[], int x, int y)
-{
-    int xroot = find(subsets, x);
-    int yroot = find(subsets, y);
-
-    // Attach smaller rank tree under root of high rank tree (Union by Rank)
-    if (subsets[xroot].rank < subsets[yroot].rank)
-        subsets[xroot].parent = yroot;
-    else if (subsets[xroot].rank > subsets[yroot].rank)
-        subsets[yroot].parent = xroot;
-    // If ranks are same, then make one as root and increment its rank by one
-    else 
+    DSU(int n) : parent(n), rank(n)
     {
-        subsets[yroot].parent = xroot;
-        subsets[xroot].rank++;
-    }
-}
-
-void KruskalMST(Graph* graph)
-{
-    int V = graph->V;
-
-    std::vector<Edge> mst;
-   
-    std::sort(graph->edge.begin(), graph->edge.end(), comparator);
-
-    subset* subsets = new subset[V];
-
-    // Create V subsets with single elements
-    for (int v = 0; v < V; ++v)
-    {
-        subsets[v].parent = -1;
-        subsets[v].rank = 0;
+        std::iota(begin(parent), end(parent), 0);
     }
 
-    int e = 0;
-    int i = 0;
-
-    // Number of edges to be taken is equal to V-1
-    while (e < V - 1 && i < graph->E)
+    int find(int x)
     {
-        // Pick the smallest edge. And increment the index for next iteration
-        Edge nextEdge = graph->edge[i++];
+        if (parent[x] == x)
+            return x;
 
-        int x = find(subsets, nextEdge.src);
-        int y = find(subsets, nextEdge.dest);
+        return parent[x] = find(parent[x]);
+    }
 
-        // If including this edge does't cause cycle, include it in result and increment the index
-        // of result for next edge.
-        if (x != y) 
+    void Union(int x, int y)
+    {
+        int xp = find(x);
+        int yp = find(y);
+
+        if (xp == yp)
+            return;
+
+        if (rank[xp] > rank[yp])
+            parent[yp] = parent[xp];
+        else if (rank[yp] > rank[xp])
+            parent[xp] = parent[yp];
+        else
         {
-            mst.push_back(nextEdge);
-            Union(subsets, x, y);
-            e++;
+            parent[xp] = parent[yp];
+            rank[yp]++;
         }
-        // Else discard the nextEdge
     }
+};
 
-    std::cout << "Following are the edges in the constructed MST\n";
+class Graph
+{
+    std::vector<std::vector<int>> edgelist;
+    int V;
 
-    int minimumCost = 0;
-    for (i = 0; i < e; ++i)
+public:
+    Graph(int V)
     {
-        std::cout << mst[i].src << " -- " << mst[i].dest << " wt = " << mst[i].weight << std::endl;
-        minimumCost = minimumCost + mst[i].weight;
+        this->V = V;
     }
 
-    std::cout << "Minimum Cost Spanning Tree: " << minimumCost << std::endl;
-}
+    void addEdge(int x, int y, int w)
+    {
+        edgelist.push_back({ w, x, y });
+    }
+
+    void KruskalMST()
+    {
+        // 1. Sort all edges
+        sort(edgelist.begin(), edgelist.end());
+
+        // Initialize the DSU
+        DSU s(V);
+        int minimumCost = 0;
+        std::vector<std::vector<int>> mst;
+        for (auto edge : edgelist)
+        {
+            int w = edge[0];
+            int x = edge[1];
+            int y = edge[2];
+
+            // take that edge in MST if it does form a cycle
+            if (s.find(x) != s.find(y))
+            {
+                s.Union(x, y);
+                minimumCost += w;
+                mst.push_back({ x, y, w});
+                if (mst.size() == V - 1)
+                    break;
+            }
+        }
+        
+        std::cout << "Following are the edges in the constructed MST\n";
+        for(auto edge: mst)
+            std::cout << edge[0] << " -- " << edge[1] << " wt = " << edge[2] << std::endl;
+        std::cout << "Minimum Cost Spanning Tree: " << minimumCost << std::endl;
+    }
+};
 
 int main()
 {
-    int V = 4; 
-    int E = 5; 
-    Graph* graph = createGraph(V, E);
+    Graph g(4);
+    g.addEdge(0, 1, 10);
+    g.addEdge(0, 2, 6);
+    g.addEdge(0, 3, 5);
+    g.addEdge(1, 3, 15);
+    g.addEdge(2, 3, 4);
 
-    // add edge 0-1
-    graph->edge[0].src = 0;
-    graph->edge[0].dest = 1;
-    graph->edge[0].weight = 10;
-
-    // add edge 0-2
-    graph->edge[1].src = 0;
-    graph->edge[1].dest = 2;
-    graph->edge[1].weight = 6;
-
-    // add edge 0-3
-    graph->edge[2].src = 0;
-    graph->edge[2].dest = 3;
-    graph->edge[2].weight = 5;
-
-    // add edge 1-3
-    graph->edge[3].src = 1;
-    graph->edge[3].dest = 3;
-    graph->edge[3].weight = 15;
-
-    // add edge 2-3
-    graph->edge[4].src = 2;
-    graph->edge[4].dest = 3;
-    graph->edge[4].weight = 4;
-
-    KruskalMST(graph);
+    g.KruskalMST();
 
     return 0;
 }
