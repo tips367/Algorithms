@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Magic Square", "Magic Squar
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sieve of Eratosthenes", "Sieve of Eratosthenes\Sieve of Eratosthenes.vcxproj", "{B9F9B584-0D36-4035-8BB9-BC6AD7B56E25}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Number which has the maximum number of distinct prime factors", "Number which has the maximum number of distinct prime factors\Number which has the maximum number of distinct prime factors.vcxproj", "{B19825FA-57A6-45ED-A9C3-EB3D755569AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{B9F9B584-0D36-4035-8BB9-BC6AD7B56E25}.Release|x64.Build.0 = Release|x64
 		{B9F9B584-0D36-4035-8BB9-BC6AD7B56E25}.Release|x86.ActiveCfg = Release|Win32
 		{B9F9B584-0D36-4035-8BB9-BC6AD7B56E25}.Release|x86.Build.0 = Release|Win32
+		{B19825FA-57A6-45ED-A9C3-EB3D755569AE}.Debug|x64.ActiveCfg = Debug|x64
+		{B19825FA-57A6-45ED-A9C3-EB3D755569AE}.Debug|x64.Build.0 = Debug|x64
+		{B19825FA-57A6-45ED-A9C3-EB3D755569AE}.Debug|x86.ActiveCfg = Debug|Win32
+		{B19825FA-57A6-45ED-A9C3-EB3D755569AE}.Debug|x86.Build.0 = Debug|Win32
+		{B19825FA-57A6-45ED-A9C3-EB3D755569AE}.Release|x64.ActiveCfg = Release|x64
+		{B19825FA-57A6-45ED-A9C3-EB3D755569AE}.Release|x64.Build.0 = Release|x64
+		{B19825FA-57A6-45ED-A9C3-EB3D755569AE}.Release|x86.ActiveCfg = Release|Win32
+		{B19825FA-57A6-45ED-A9C3-EB3D755569AE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
