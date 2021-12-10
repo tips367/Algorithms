@@ -49,6 +49,7 @@ void printCodes(MinHeapNode* root, std::string& str)
     str.pop_back();
 }
 
+// Time complexity : O(n log n)
 void HuffmanCodes(std::vector<std::pair<char, int>>& characters)
 {
     int n = size(characters);
@@ -72,7 +73,7 @@ void HuffmanCodes(std::vector<std::pair<char, int>>& characters)
 
         // Create a new internal node with frequency equal to the sum of the two nodes frequencies. 
         // Make the two extracted node as left and right children of this new node. 
-        // Add this node to the min heap, '$' is a special value for internal nodes, not used
+        // Add this node to the min heap, '#' is a special value for internal nodes, not used
         top = new MinHeapNode('#', left->freq + right->freq);
 
         top->left = left;
