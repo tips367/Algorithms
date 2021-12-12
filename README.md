@@ -14,6 +14,7 @@ All the algorithms are structured properly and placed topicwise in folders.
 <li>Graph Algorithms</li>
 <li>Mathematical Algorithms</li>
 <li>Greedy Algorithms</li>
+<li>Pattern Searching</li>
 </ul>
 
 <h2>Features</h2>
