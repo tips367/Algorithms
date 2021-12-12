@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Job Sequencing Problem", "J
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum number of Coins", "Minimum number of Coins\Minimum number of Coins.vcxproj", "{BE9162C2-F4CD-4AEF-BD3A-506E81C3835A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum Number of Platforms", "Minimum Number of Platforms\Minimum Number of Platforms.vcxproj", "{E069F07A-6FDB-4A2D-935D-E30ED324DE40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{BE9162C2-F4CD-4AEF-BD3A-506E81C3835A}.Release|x64.Build.0 = Release|x64
 		{BE9162C2-F4CD-4AEF-BD3A-506E81C3835A}.Release|x86.ActiveCfg = Release|Win32
 		{BE9162C2-F4CD-4AEF-BD3A-506E81C3835A}.Release|x86.Build.0 = Release|Win32
+		{E069F07A-6FDB-4A2D-935D-E30ED324DE40}.Debug|x64.ActiveCfg = Debug|x64
+		{E069F07A-6FDB-4A2D-935D-E30ED324DE40}.Debug|x64.Build.0 = Debug|x64
+		{E069F07A-6FDB-4A2D-935D-E30ED324DE40}.Debug|x86.ActiveCfg = Debug|Win32
+		{E069F07A-6FDB-4A2D-935D-E30ED324DE40}.Debug|x86.Build.0 = Debug|Win32
+		{E069F07A-6FDB-4A2D-935D-E30ED324DE40}.Release|x64.ActiveCfg = Release|x64
+		{E069F07A-6FDB-4A2D-935D-E30ED324DE40}.Release|x64.Build.0 = Release|x64
+		{E069F07A-6FDB-4A2D-935D-E30ED324DE40}.Release|x86.ActiveCfg = Release|Win32
+		{E069F07A-6FDB-4A2D-935D-E30ED324DE40}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
