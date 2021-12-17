@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lexicographic rank of a str
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Print all permutations in sorted (lexicographic) order", "Print all permutations in sorted (lexicographic) order\Print all permutations in sorted (lexicographic) order.vcxproj", "{1A4B023A-DA19-4A51-923C-321B983A0E93}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pascal’s Triangle", "Pascal’s Triangle\Pascal’s Triangle.vcxproj", "{288A9E07-9BDA-4659-B3F1-02D6E7A07141}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{1A4B023A-DA19-4A51-923C-321B983A0E93}.Release|x64.Build.0 = Release|x64
 		{1A4B023A-DA19-4A51-923C-321B983A0E93}.Release|x86.ActiveCfg = Release|Win32
 		{1A4B023A-DA19-4A51-923C-321B983A0E93}.Release|x86.Build.0 = Release|Win32
+		{288A9E07-9BDA-4659-B3F1-02D6E7A07141}.Debug|x64.ActiveCfg = Debug|x64
+		{288A9E07-9BDA-4659-B3F1-02D6E7A07141}.Debug|x64.Build.0 = Debug|x64
+		{288A9E07-9BDA-4659-B3F1-02D6E7A07141}.Debug|x86.ActiveCfg = Debug|Win32
+		{288A9E07-9BDA-4659-B3F1-02D6E7A07141}.Debug|x86.Build.0 = Debug|Win32
+		{288A9E07-9BDA-4659-B3F1-02D6E7A07141}.Release|x64.ActiveCfg = Release|x64
+		{288A9E07-9BDA-4659-B3F1-02D6E7A07141}.Release|x64.Build.0 = Release|x64
+		{288A9E07-9BDA-4659-B3F1-02D6E7A07141}.Release|x86.ActiveCfg = Release|Win32
+		{288A9E07-9BDA-4659-B3F1-02D6E7A07141}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
