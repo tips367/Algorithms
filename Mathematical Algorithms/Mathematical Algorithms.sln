@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Print all prime factors of 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Russian peasant algorithm", "Russian peasant algorithm\Russian peasant algorithm.vcxproj", "{D048C46E-B898-42A0-8999-CB09AFDF5474}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "All possible groups of size 2 or 3 that have sum as multiple of 3", "All possible groups of size 2 or 3 that have sum as multiple of 3\All possible groups of size 2 or 3 that have sum as multiple of 3.vcxproj", "{DD15D6C6-2C3C-403E-87D6-AF9030E58309}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{D048C46E-B898-42A0-8999-CB09AFDF5474}.Release|x64.Build.0 = Release|x64
 		{D048C46E-B898-42A0-8999-CB09AFDF5474}.Release|x86.ActiveCfg = Release|Win32
 		{D048C46E-B898-42A0-8999-CB09AFDF5474}.Release|x86.Build.0 = Release|Win32
+		{DD15D6C6-2C3C-403E-87D6-AF9030E58309}.Debug|x64.ActiveCfg = Debug|x64
+		{DD15D6C6-2C3C-403E-87D6-AF9030E58309}.Debug|x64.Build.0 = Debug|x64
+		{DD15D6C6-2C3C-403E-87D6-AF9030E58309}.Debug|x86.ActiveCfg = Debug|Win32
+		{DD15D6C6-2C3C-403E-87D6-AF9030E58309}.Debug|x86.Build.0 = Debug|Win32
+		{DD15D6C6-2C3C-403E-87D6-AF9030E58309}.Release|x64.ActiveCfg = Release|x64
+		{DD15D6C6-2C3C-403E-87D6-AF9030E58309}.Release|x64.Build.0 = Release|x64
+		{DD15D6C6-2C3C-403E-87D6-AF9030E58309}.Release|x86.ActiveCfg = Release|Win32
+		{DD15D6C6-2C3C-403E-87D6-AF9030E58309}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
