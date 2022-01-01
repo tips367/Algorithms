@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "All possible groups of size
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tower of Hanoi", "Tower of Hanoi\Tower of Hanoi.vcxproj", "{BA6DAFB2-6F5F-4C52-BDCD-8FAC6E11B0F7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Horner’s Method for Polynomial Evaluation", "Horner’s Method for Polynomial Evaluation\Horner’s Method for Polynomial Evaluation.vcxproj", "{BE52EEE4-EF70-4701-B343-A52E303D2813}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +163,14 @@ Global
 		{BA6DAFB2-6F5F-4C52-BDCD-8FAC6E11B0F7}.Release|x64.Build.0 = Release|x64
 		{BA6DAFB2-6F5F-4C52-BDCD-8FAC6E11B0F7}.Release|x86.ActiveCfg = Release|Win32
 		{BA6DAFB2-6F5F-4C52-BDCD-8FAC6E11B0F7}.Release|x86.Build.0 = Release|Win32
+		{BE52EEE4-EF70-4701-B343-A52E303D2813}.Debug|x64.ActiveCfg = Debug|x64
+		{BE52EEE4-EF70-4701-B343-A52E303D2813}.Debug|x64.Build.0 = Debug|x64
+		{BE52EEE4-EF70-4701-B343-A52E303D2813}.Debug|x86.ActiveCfg = Debug|Win32
+		{BE52EEE4-EF70-4701-B343-A52E303D2813}.Debug|x86.Build.0 = Debug|Win32
+		{BE52EEE4-EF70-4701-B343-A52E303D2813}.Release|x64.ActiveCfg = Release|x64
+		{BE52EEE4-EF70-4701-B343-A52E303D2813}.Release|x64.Build.0 = Release|x64
+		{BE52EEE4-EF70-4701-B343-A52E303D2813}.Release|x86.ActiveCfg = Release|Win32
+		{BE52EEE4-EF70-4701-B343-A52E303D2813}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
