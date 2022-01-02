@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Horner’s Method for Polyn
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count trailing zeroes in factorial of a number", "Count trailing zeroes in factorial of a number\Count trailing zeroes in factorial of a number.vcxproj", "{0167CA4C-DB55-4AF5-9046-82E1D91B5C48}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nth Catalan Number", "nth Catalan Number\nth Catalan Number.vcxproj", "{6AEAA4B9-4C1C-4E85-8DF3-A8FEE180B4B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +183,14 @@ Global
 		{0167CA4C-DB55-4AF5-9046-82E1D91B5C48}.Release|x64.Build.0 = Release|x64
 		{0167CA4C-DB55-4AF5-9046-82E1D91B5C48}.Release|x86.ActiveCfg = Release|Win32
 		{0167CA4C-DB55-4AF5-9046-82E1D91B5C48}.Release|x86.Build.0 = Release|Win32
+		{6AEAA4B9-4C1C-4E85-8DF3-A8FEE180B4B1}.Debug|x64.ActiveCfg = Debug|x64
+		{6AEAA4B9-4C1C-4E85-8DF3-A8FEE180B4B1}.Debug|x64.Build.0 = Debug|x64
+		{6AEAA4B9-4C1C-4E85-8DF3-A8FEE180B4B1}.Debug|x86.ActiveCfg = Debug|Win32
+		{6AEAA4B9-4C1C-4E85-8DF3-A8FEE180B4B1}.Debug|x86.Build.0 = Debug|Win32
+		{6AEAA4B9-4C1C-4E85-8DF3-A8FEE180B4B1}.Release|x64.ActiveCfg = Release|x64
+		{6AEAA4B9-4C1C-4E85-8DF3-A8FEE180B4B1}.Release|x64.Build.0 = Release|x64
+		{6AEAA4B9-4C1C-4E85-8DF3-A8FEE180B4B1}.Release|x86.ActiveCfg = Release|Win32
+		{6AEAA4B9-4C1C-4E85-8DF3-A8FEE180B4B1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
