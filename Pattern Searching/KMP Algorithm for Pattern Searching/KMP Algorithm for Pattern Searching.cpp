@@ -17,15 +17,15 @@ Output: Pattern found at index 0
 #include <iostream>
 #include <vector>
 
-std::vector<int> kmpPreprocess(std::string const& needle)
+std::vector<int> kmpPreprocess(std::string const& pattern)
 {
-    int n = size(needle);
+    int n = size(pattern);
     std::vector<int> lps(n, 0);
     int len = 0, i = 1;
 
     while (i < n)
     {
-        if (needle[len] == needle[i])
+        if (pattern[len] == pattern[i])
             lps[i++] = ++len;
         else if (len)
             len = lps[len - 1];
