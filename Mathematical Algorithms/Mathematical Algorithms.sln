@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count trailing zeroes in fa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nth Catalan Number", "nth Catalan Number\nth Catalan Number.vcxproj", "{6AEAA4B9-4C1C-4E85-8DF3-A8FEE180B4B1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Smallest number whose digits multiply to a given number n", "Smallest number whose digits multiply to a given number n\Smallest number whose digits multiply to a given number n.vcxproj", "{D4566561-EAAA-4FAB-84F1-D0D8D35DA903}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{6AEAA4B9-4C1C-4E85-8DF3-A8FEE180B4B1}.Release|x64.Build.0 = Release|x64
 		{6AEAA4B9-4C1C-4E85-8DF3-A8FEE180B4B1}.Release|x86.ActiveCfg = Release|Win32
 		{6AEAA4B9-4C1C-4E85-8DF3-A8FEE180B4B1}.Release|x86.Build.0 = Release|Win32
+		{D4566561-EAAA-4FAB-84F1-D0D8D35DA903}.Debug|x64.ActiveCfg = Debug|x64
+		{D4566561-EAAA-4FAB-84F1-D0D8D35DA903}.Debug|x64.Build.0 = Debug|x64
+		{D4566561-EAAA-4FAB-84F1-D0D8D35DA903}.Debug|x86.ActiveCfg = Debug|Win32
+		{D4566561-EAAA-4FAB-84F1-D0D8D35DA903}.Debug|x86.Build.0 = Debug|Win32
+		{D4566561-EAAA-4FAB-84F1-D0D8D35DA903}.Release|x64.ActiveCfg = Release|x64
+		{D4566561-EAAA-4FAB-84F1-D0D8D35DA903}.Release|x64.Build.0 = Release|x64
+		{D4566561-EAAA-4FAB-84F1-D0D8D35DA903}.Release|x86.ActiveCfg = Release|Win32
+		{D4566561-EAAA-4FAB-84F1-D0D8D35DA903}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
