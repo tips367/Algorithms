@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Check for Integer Overflow"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse Bits of a Number", "Reverse Bits of a Number\Reverse Bits of a Number.vcxproj", "{12FA1A90-764F-433C-B273-E08EE7507489}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count number of bits to be flipped to convert A to B", "Count number of bits to be flipped to convert A to B\Count number of bits to be flipped to convert A to B.vcxproj", "{F313B32E-0BD6-47C3-AF6B-489D93205D05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{12FA1A90-764F-433C-B273-E08EE7507489}.Release|x64.Build.0 = Release|x64
 		{12FA1A90-764F-433C-B273-E08EE7507489}.Release|x86.ActiveCfg = Release|Win32
 		{12FA1A90-764F-433C-B273-E08EE7507489}.Release|x86.Build.0 = Release|Win32
+		{F313B32E-0BD6-47C3-AF6B-489D93205D05}.Debug|x64.ActiveCfg = Debug|x64
+		{F313B32E-0BD6-47C3-AF6B-489D93205D05}.Debug|x64.Build.0 = Debug|x64
+		{F313B32E-0BD6-47C3-AF6B-489D93205D05}.Debug|x86.ActiveCfg = Debug|Win32
+		{F313B32E-0BD6-47C3-AF6B-489D93205D05}.Debug|x86.Build.0 = Debug|Win32
+		{F313B32E-0BD6-47C3-AF6B-489D93205D05}.Release|x64.ActiveCfg = Release|x64
+		{F313B32E-0BD6-47C3-AF6B-489D93205D05}.Release|x64.Build.0 = Release|x64
+		{F313B32E-0BD6-47C3-AF6B-489D93205D05}.Release|x86.ActiveCfg = Release|Win32
+		{F313B32E-0BD6-47C3-AF6B-489D93205D05}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
