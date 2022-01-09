@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count number of bits to be 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Smallest power of 2 greater than or equal to n", "Smallest power of 2 greater than or equal to n\Smallest power of 2 greater than or equal to n.vcxproj", "{6EB0F616-2EA4-4F1E-8725-64DB4B0018DD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Find parity", "Find parity\Find parity.vcxproj", "{577985ED-A022-42FF-BFF6-BF92D2558E19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{6EB0F616-2EA4-4F1E-8725-64DB4B0018DD}.Release|x64.Build.0 = Release|x64
 		{6EB0F616-2EA4-4F1E-8725-64DB4B0018DD}.Release|x86.ActiveCfg = Release|Win32
 		{6EB0F616-2EA4-4F1E-8725-64DB4B0018DD}.Release|x86.Build.0 = Release|Win32
+		{577985ED-A022-42FF-BFF6-BF92D2558E19}.Debug|x64.ActiveCfg = Debug|x64
+		{577985ED-A022-42FF-BFF6-BF92D2558E19}.Debug|x64.Build.0 = Debug|x64
+		{577985ED-A022-42FF-BFF6-BF92D2558E19}.Debug|x86.ActiveCfg = Debug|Win32
+		{577985ED-A022-42FF-BFF6-BF92D2558E19}.Debug|x86.Build.0 = Debug|Win32
+		{577985ED-A022-42FF-BFF6-BF92D2558E19}.Release|x64.ActiveCfg = Release|x64
+		{577985ED-A022-42FF-BFF6-BF92D2558E19}.Release|x64.Build.0 = Release|x64
+		{577985ED-A022-42FF-BFF6-BF92D2558E19}.Release|x86.ActiveCfg = Release|Win32
+		{577985ED-A022-42FF-BFF6-BF92D2558E19}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
