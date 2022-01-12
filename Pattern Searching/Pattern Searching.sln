@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KMP Algorithm for Pattern S
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rabin-Karp Algorithm for Pattern Searching", "Rabin-Karp Algorithm for Pattern Searching\Rabin-Karp Algorithm for Pattern Searching.vcxproj", "{4DA8E11A-E586-41F5-AA6E-A0D143191B77}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Anagram Substring Search", "Anagram Substring Search\Anagram Substring Search.vcxproj", "{9874DDEA-FDE4-4674-9167-F6CAE229DF67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{4DA8E11A-E586-41F5-AA6E-A0D143191B77}.Release|x64.Build.0 = Release|x64
 		{4DA8E11A-E586-41F5-AA6E-A0D143191B77}.Release|x86.ActiveCfg = Release|Win32
 		{4DA8E11A-E586-41F5-AA6E-A0D143191B77}.Release|x86.Build.0 = Release|Win32
+		{9874DDEA-FDE4-4674-9167-F6CAE229DF67}.Debug|x64.ActiveCfg = Debug|x64
+		{9874DDEA-FDE4-4674-9167-F6CAE229DF67}.Debug|x64.Build.0 = Debug|x64
+		{9874DDEA-FDE4-4674-9167-F6CAE229DF67}.Debug|x86.ActiveCfg = Debug|Win32
+		{9874DDEA-FDE4-4674-9167-F6CAE229DF67}.Debug|x86.Build.0 = Debug|Win32
+		{9874DDEA-FDE4-4674-9167-F6CAE229DF67}.Release|x64.ActiveCfg = Release|x64
+		{9874DDEA-FDE4-4674-9167-F6CAE229DF67}.Release|x64.Build.0 = Release|x64
+		{9874DDEA-FDE4-4674-9167-F6CAE229DF67}.Release|x86.ActiveCfg = Release|Win32
+		{9874DDEA-FDE4-4674-9167-F6CAE229DF67}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
