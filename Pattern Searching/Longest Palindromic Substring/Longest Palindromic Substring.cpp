@@ -15,7 +15,7 @@ Output: "bb"
 #include <iostream>
 #include <string.h>
 
-// Time complexity : (n^2), Space : O(1)
+// Time complexity : O(n^2), Space : O(1)
 int expandAroundCenter(std::string& s, int left, int right)
 {
     int n = s.length();
