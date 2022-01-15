@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rabin-Karp Algorithm for Pa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Anagram Substring Search", "Anagram Substring Search\Anagram Substring Search.vcxproj", "{9874DDEA-FDE4-4674-9167-F6CAE229DF67}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Longest Palindromic Substring", "Longest Palindromic Substring\Longest Palindromic Substring.vcxproj", "{006E8F29-25FD-4CC1-AD39-AB54AAEA378B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{9874DDEA-FDE4-4674-9167-F6CAE229DF67}.Release|x64.Build.0 = Release|x64
 		{9874DDEA-FDE4-4674-9167-F6CAE229DF67}.Release|x86.ActiveCfg = Release|Win32
 		{9874DDEA-FDE4-4674-9167-F6CAE229DF67}.Release|x86.Build.0 = Release|Win32
+		{006E8F29-25FD-4CC1-AD39-AB54AAEA378B}.Debug|x64.ActiveCfg = Debug|x64
+		{006E8F29-25FD-4CC1-AD39-AB54AAEA378B}.Debug|x64.Build.0 = Debug|x64
+		{006E8F29-25FD-4CC1-AD39-AB54AAEA378B}.Debug|x86.ActiveCfg = Debug|Win32
+		{006E8F29-25FD-4CC1-AD39-AB54AAEA378B}.Debug|x86.Build.0 = Debug|Win32
+		{006E8F29-25FD-4CC1-AD39-AB54AAEA378B}.Release|x64.ActiveCfg = Release|x64
+		{006E8F29-25FD-4CC1-AD39-AB54AAEA378B}.Release|x64.Build.0 = Release|x64
+		{006E8F29-25FD-4CC1-AD39-AB54AAEA378B}.Release|x86.ActiveCfg = Release|Win32
+		{006E8F29-25FD-4CC1-AD39-AB54AAEA378B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
