@@ -1,0 +1,73 @@
+/* There is a new alien language which uses the latin alphabet. However, the order among letters are unknown to you. 
+You receive a list of non-empty words from the dictionary, where words are sorted lexicographically by the rules of this new language. 
+Derive the order of letters in this language.
+
+-You may assume all letters are in lowercase.
+-The dictionary is invalid, if string a is prefix of string b and b is appear before a.
+-If the order is invalid, return an empty string.
+-There may be multiple valid order of letters, return the smallest in normal lexicographical order.
+-The letters in one string are of the same rank by default and are sorted in Human dictionary order.
+*/
+
+class Solution {
+public:
+    /**
+     * @param words: a list of words
+     * @return: a string which is correct order
+     */
+    string alienOrder(vector<string> &words) 
+    {
+        // Write your code here
+        unordered_map<char, vector<char>> adj;
+        unordered_map<char, int> indegree;
+        for(auto& word: words)
+        {
+            for(char c: word)
+                indegree[c] = 0;
+        }
+
+        int len = words.size();
+        for(int i=0;i<len-1;i++)
+        {
+            string s1 = words[i];
+            string s2 = words[i+1];
+            int m = min(s1.size(), s2.size());
+            int j;
+            for(j = 0;j<m;j++)
+            {
+                if(s1[j] != s2[j])
+                {
+                    adj[s1[j]].push_back(s2[j]);
+                    indegree[s2[j]]++;
+                    break;
+                }
+            }
+            if(j == m && s1.size() > s2.size())
+                return "";
+
+        }
+
+        priority_queue<char, vector<char>, greater<char>> q;
+        for(auto it: indegree)
+            if(it.second == 0)
+                q.push(it.first);
+
+        string res;
+        while(!q.empty())
+        {
+            char node = q.top();
+            q.pop();
+
+            res.push_back(node);
+
+            for(char c: adj[node])
+            {
+                indegree[c]--;
+                if(indegree[c] == 0)
+                    q.push(c);
+            }
+        }
+        return res.size() == indegree.size() ? res : "";
+
+    }
+};
